@@ -1,0 +1,13 @@
+section{
+    margin: auto;
+    width: 45%;
+}
+
+details{
+    border: 1px solid darkgray;
+    padding: 20px;
+}
+
+summary{
+    font-weight: bold;
+}

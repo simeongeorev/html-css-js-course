@@ -1,0 +1,19 @@
+section{
+    border: 3px solid;
+}
+
+.border-wide{
+    border-color: green;
+    padding: 20px;
+}
+
+.border-inner{
+    border-color: black;
+    padding: 20px 70px;
+    margin-bottom: 20px;
+}
+
+.main{
+    border-color: blue;
+    padding: 20px;
+}
