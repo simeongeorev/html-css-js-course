@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    height: 480px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-wrap {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    /* flex-grow: 1; */
+    max-width: 100%;
+    max-height: 100%;
+    object-fit:fill;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p {
+    margin-top: auto;
+    margin-bottom: 0;
+}

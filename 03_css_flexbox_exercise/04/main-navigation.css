@@ -1,0 +1,19 @@
+
+div{
+    display: flex;
+    border: 1px solid darkgray;
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section{
+    padding: 5px 10px;
+    border: 1px solid darkgray;
+    color: orange;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+
+}

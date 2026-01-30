@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    border: 1px darkgray solid;
+    padding: 10px;
+}
+
+.left {
+    width: 80%;
+}
+
+.right {
+    width: 20%;
+}
+
+.days {
+    display: flex;
+    padding: 0px;
+}
+
+.workday {
+    width: 20%;
+    border: 1px darkgray solid;
+}
+
+.weekend {
+    display: flex;
+    padding: 0px;
+}
+
+.weekends {
+    width: 50%;
+    border: 1px darkgray solid;
+    padding: 10px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+.first{
+    flex-grow: 1;
+}
+
+.second{
+    flex-grow: 1;
+}
