@@ -1,0 +1,39 @@
+.doc{
+    display: flex;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    width: 70%;
+    margin: auto;
+}
+
+.text-ctr{
+    padding: 0 20px 20px 20px ;
+    width: 60%;
+}
+
+.img-ctr{
+    padding: 20px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit:fill;
+    border-radius: 5px;
+}
+
+button{
+    border: none;
+    border-radius: 6px;
+    padding: 10px 15px;
+}
+
+.coloured{
+    background-color: purple;
+    color: white;
+    margin-right: 10px;
+}
