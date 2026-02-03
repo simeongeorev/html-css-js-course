@@ -1,0 +1,47 @@
+*{
+        margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: lightgrey;
+
+}
+
+.container{
+    width: 80%;
+    margin: 20px 50px 50px 50px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+header{
+    color: green;
+    padding: 20px;
+}
+
+.menus{
+    display: flex;
+    
+}
+
+.menus, .footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.menu{
+    margin-right: auto;
+}
+
+.text-ctr{
+    padding: 20px;
+    display: flex;
+    gap: 5%;
+}
+
+.footer{
+    text-align: center;
+}
+
