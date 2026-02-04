@@ -1,47 +1,69 @@
-*{
-        margin: 0px;
+* {
+    margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     background-color: lightgrey;
 
 }
 
-.container{
+.container {
     width: 80%;
     margin: 20px 50px 50px 50px;
     background-color: white;
     border-radius: 5px;
 }
 
-header{
+header {
     color: green;
     padding: 20px;
 }
 
-.menus{
+.menus {
     display: flex;
-    
 }
 
-.menus, .footer{
+.menus,
+.footer {
     background-color: black;
     color: white;
     padding: 10px;
 }
 
-.menu{
+.menu {
     margin-right: auto;
 }
 
-.text-ctr{
+.text-ctr {
     padding: 20px;
     display: flex;
     gap: 5%;
 }
 
-.footer{
+.footer {
     text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+    .text-ctr,
+    .menus {
+        flex-direction: column;
+    }
+
+    .menus{
+        padding: 0px;
+    }
+
+    .menu{
+        padding: 10px;
+        text-align: center;
+        align-items: center;
+        margin-right: 0px;
+        border-bottom: 1px solid darkgray;
+    }
+
+    .text-ctr > * {
+        padding: 10px;
+    }
+}
