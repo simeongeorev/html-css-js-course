@@ -1,0 +1,53 @@
+body {
+    background-color: lightgrey;
+}
+
+.container {
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h2 {
+    margin-left: 15px;
+}
+
+.first-table,
+.second-table {
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
+.header {
+    background-color: lightgray;
+}
+
+td,
+th {
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+
+
+th {
+    text-align: left;
+    border-bottom: 1px solid gray;
+}
+
+table {
+    width: 100%;
+    /*makes the borders between rows solid*/
+    border-collapse: collapse;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+@media screen and (max-width: 600px) {
+
+}

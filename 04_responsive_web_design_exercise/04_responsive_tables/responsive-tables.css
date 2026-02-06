@@ -1,0 +1,109 @@
+body {
+    background-color: lightgrey;
+}
+
+.container {
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h2 {
+    margin-left: 15px;
+}
+
+.card-one,
+.table-two {
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
+.table-one,
+.table-two {
+    display: flex;
+}
+
+.label {
+    background-color: lightgray;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.table-one div:nth-child(1) {
+    flex-grow: 1;
+}
+
+.table-one div:nth-child(2) {
+    flex-grow: 2;
+}
+
+.table-one div:nth-child(3) {
+    flex-grow: 1;
+}
+
+.table-two div:nth-child(1) {
+    flex-grow: 1;
+}
+
+.table-two div:nth-child(2) {
+    flex-grow: 1;
+}
+
+.table-two div:nth-child(3) {
+    flex-grow: 1;
+}
+
+span {
+    padding: 10px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.value {
+    border-bottom: 1px solid lightgray;
+}
+
+@media screen and (max-width: 600px) {
+
+    .table-one,
+    .table-two {
+        flex-direction: column;
+    }
+    .row{
+        flex-direction: row;
+    }
+}
+
+
+
+/* 
+td,
+th {
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+
+
+th {
+    text-align: left;
+    border-bottom: 1px solid gray;
+}
+
+table {
+    width: 100%;
+    /*makes the borders between rows solid*/
+/* border-collapse: collapse;
+} */
+
+/* tr:last-child td {
+    border-bottom: none;
+}
