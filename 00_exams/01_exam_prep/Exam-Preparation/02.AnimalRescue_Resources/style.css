@@ -156,3 +156,36 @@ footer {
   color: white;
   padding: 1em 0;
 }
+
+@media screen and (width <= 600px) {
+  header > nav{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .header-title{
+    padding: 0%;
+  }
+
+  .our-dogs-wrapper > ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .our-dogs-wrapper > ul > li{
+    width: 45%;
+    height: 15em;
+    padding-bottom: 40px;
+  }
+
+  .our-dogs-wrapper > ul > li > img{
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+  }
+
+  .helpNeed > ul{
+    flex-direction: column;
+  }
+}
