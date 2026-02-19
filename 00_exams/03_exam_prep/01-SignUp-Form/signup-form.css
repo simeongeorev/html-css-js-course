@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap);
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #C1BDBA;
+    font-family: "Kode Mono";
+}
+
+.modal-ctr {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 3em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #24333C;
+    border-radius: 0.2em;
+    padding: 0 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.btns{
+    display: flex;
+}
+
+.btns > button{
+    flex: 1;
+    padding: 1em 0;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: larger;
+    border: none;
+}
+
+.signup{
+    background-color: #1AB188;
+    color: white;
+}
+
+.login{
+    background-color: #435359;
+    color: #9CAFAD;
+}
+
+.login:hover{
+    background-color: #179A77;
+    color: white;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+.names{
+    display: flex;
+    gap: 1em;
+}
+
+.names > input{
+    flex: 1;
+}
+
+input::placeholder{
+    font-family: "Kode Mono";
+    color: #9CAFAD;
+    font-size: large;
+}
+
+input::placeholder::after{
+    content: "*";
+    
+}
+
+.names #fname::placeholder{
+    font-family: "Kode Mono";
+}
+
+input{
+    background-color: #24333C;
+    border: 1px solid #9CAFAD;
+    padding: 0.6em;
+}
+
+#submit{
+    font-family: inherit;
+    background-color: #1AB188;
+    color: white;
+    padding: 0.5em 0;
+    font-weight: bold;
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    border: none;
+}
