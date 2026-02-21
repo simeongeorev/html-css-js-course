@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css2?family=Margarine&display=swap);
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Margarine";
+    background-color: #FFF0E4;
+}
+
+.main-ctr {
+    width: 70%;
+    margin: auto;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.info-ctr,
+.work-exp-ctr {
+    box-shadow: 0 8px 33px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.info-ctr{
+    flex: 2;
+    padding: 1em;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.info-ctr>h2{
+    font-weight: 500;
+    padding-bottom: 1.4em;
+}
+
+.user-details{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border-bottom: 2px solid #9A9A9A;
+    padding-bottom: 1em;
+}
+
+.user-details .detail span{
+    padding-left: 0.6em;
+}
+
+.info-ctr .skills{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em 0;
+}
+
+.info-ctr .skills span{
+    background-color: #2991E6;
+    border-radius: 1em;
+    color: white;
+    padding: 0.1em;
+    text-align: center;
+}
+
+.info-ctr .skills .ninety{
+    width: 90%;
+}
+
+.info-ctr .skills .eighty{
+    width: 80%;
+}
+
+.info-ctr .skills .seventy-five{
+    width: 75%;
+}
+
+.info-ctr .skills .fifty{
+    width: 50%;
+}
+
+.work-exp-ctr{
+    flex: 4;
+    padding: 2em;
+}
+
+.work-exp-ctr h2{
+    text-align: center;
+    font-weight: 500;
+    padding: 1em;
+}
+
+.experiences-ctr{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.experiences-ctr .experience{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.experiences-ctr .experience h3{
+    color: #66605B;
+}
+
+.experiences-ctr .experience span{
+    color: #2991E6;
+}
