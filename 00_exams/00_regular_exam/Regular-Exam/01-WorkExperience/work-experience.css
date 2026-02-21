@@ -26,19 +26,17 @@ body {
     box-shadow: 0 8px 33px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.info-ctr{
+.info-ctr {
     flex: 2;
     padding: 1em;
-    /* display: flex;
-    flex-direction: column; */
 }
 
-.info-ctr>h2{
+.info-ctr>h2 {
     font-weight: 500;
     padding-bottom: 1.4em;
 }
 
-.user-details{
+.user-details {
     display: flex;
     flex-direction: column;
     gap: 1em;
@@ -46,18 +44,18 @@ body {
     padding-bottom: 1em;
 }
 
-.user-details .detail span{
+.user-details .detail span {
     padding-left: 0.6em;
 }
 
-.info-ctr .skills{
+.info-ctr .skills {
     display: flex;
     flex-direction: column;
     gap: 1em;
     padding: 1em 0;
 }
 
-.info-ctr .skills span{
+.info-ctr .skills span {
     background-color: #2991E6;
     border-radius: 1em;
     color: white;
@@ -65,49 +63,49 @@ body {
     text-align: center;
 }
 
-.info-ctr .skills .ninety{
+.info-ctr .skills .ninety {
     width: 90%;
 }
 
-.info-ctr .skills .eighty{
+.info-ctr .skills .eighty {
     width: 80%;
 }
 
-.info-ctr .skills .seventy-five{
+.info-ctr .skills .seventy-five {
     width: 75%;
 }
 
-.info-ctr .skills .fifty{
+.info-ctr .skills .fifty {
     width: 50%;
 }
 
-.work-exp-ctr{
+.work-exp-ctr {
     flex: 4;
     padding: 2em;
 }
 
-.work-exp-ctr h2{
+.work-exp-ctr h2 {
     text-align: center;
     font-weight: 500;
     padding: 1em;
 }
 
-.experiences-ctr{
+.experiences-ctr {
     display: flex;
     flex-direction: column;
     gap: 1em;
 }
 
-.experiences-ctr .experience{
+.experiences-ctr .experience {
     display: flex;
     flex-direction: column;
     gap: 1em;
 }
 
-.experiences-ctr .experience h3{
+.experiences-ctr .experience h3 {
     color: #66605B;
 }
 
-.experiences-ctr .experience span{
+.experiences-ctr .experience span {
     color: #2991E6;
 }
