@@ -1,0 +1,261 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+/* header */
+header {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    padding-bottom: 3em;
+    gap: 0.5em;
+    color: white;
+}
+
+header .faqs span {
+    line-height: 1;
+    display: inline-block;
+    padding: 0 1em;
+}
+
+header .faqs span:nth-of-type(2) {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+header .logos i {
+    padding: 0 0.8em;
+}
+
+/* banner */
+.banner {
+    width: fit-content;
+    padding: 0 3em;
+    margin: auto;
+    background-color: white;
+    border-radius: 5em;
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    margin-top: -2em;
+    align-items: center;
+    position: relative;
+}
+
+.banner .links {
+    display: flex;
+    gap: 2em;
+    font-weight: bold;
+}
+
+.vintage-cuts {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.vintage-cuts .orange {
+    color: #E9551B;
+}
+
+.vintage-cuts .black {
+    color: black;
+}
+
+/* 1st main component */
+.main-title {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(./images/carousel-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 60em;
+    display: flex;
+    margin-top: -2.5em;
+    border-bottom: 0.3em solid lightgray;
+}
+
+.main-title .text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.main-title .text h3 {
+    text-transform: uppercase;
+}
+
+.main-title .text h1 {
+    font-size: 4em;
+}
+
+.main-title .text button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.6em 1em;
+    border-radius: 2em;
+}
+
+/* 2nd main component */
+.main-info {
+    background-color: #E2F2D0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5em 0;
+}
+
+.border {
+    width: 6em;
+    border-bottom: 0.4em solid black;
+}
+
+.main-info h2 {
+    color: #555555;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 0.2em 0;
+}
+
+.tri-ctr {
+    display: flex;
+    width: 80%;
+    gap: 2em;
+    justify-content: center;
+    max-height: 36em;
+}
+
+.tri-ctr .about,
+.tri-ctr .haircut-img,
+.tri-ctr .features {
+    width: 30%;
+}
+
+.tri-ctr .haircut-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 0.3em
+}
+
+.tri-ctr .about,
+.tri-ctr .features {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 2em;
+    padding-bottom: 3em;
+    color: #555555;
+    font-weight: 500;
+}
+
+.tri-ctr h3,
+.tri-ctr h4 {
+    font-weight: bolder;
+}
+
+.tri-ctr h4 {
+    color: #6C757D;
+}
+
+.tri-ctr i {
+    color: #E9551B;
+    padding-right: 1em;
+    -webkit-text-stroke: 1px currentColor;
+}
+
+.tri-ctr button {
+    border: none;
+    border-radius: 2em;
+    padding: 1em 2em;
+    align-self: flex-start;
+    color: white;
+}
+
+.tri-ctr .orange {
+    background-color: #E9551B;
+}
+
+.tri-ctr .black {
+    background-color: black;
+}
+
+footer {
+    padding: 4em 0;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    margin: auto;
+}
+
+footer .logos {
+    display: flex;
+    gap: 0.3em;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+}
+
+footer .logos .logo {
+    border: 3px solid #62C3E7;
+    width: 2.5em;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    color: #E9551B;
+}
+
+footer .info {
+    display: flex;
+    gap: 2em;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 0.5em;
+    color: #555555;
+}
+
+footer .get-in-touch {
+    align-items: end;
+}
+
+.info .line {
+    border-left: 2px solid #555555;
+    height: 6.6em;
+}
+
+footer>p {
+
+    color: #555555;
+}
+
+footer>p>span {
+    color: black;
+}
