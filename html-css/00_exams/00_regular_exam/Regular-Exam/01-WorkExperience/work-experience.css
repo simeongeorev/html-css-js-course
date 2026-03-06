@@ -19,7 +19,9 @@ body {
     display: flex;
     flex-direction: row;
     gap: 1em;
+    text-decoration: ;
 }
+
 
 .info-ctr,
 .work-exp-ctr {
