@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Praise&display=swap');
+
+body {
+    background: url(../styles/images/kingdom.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+.container-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70vh;
+    max-width: 1200px;
+    margin: 20px;
+}
+
+.container {
+    width: 32%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .container-wrapper {
+        display: block;
+    }
+
+    .container {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+        position: relative;
+        text-align: center;
+        top: 30px;
+    }
+
+    .creating-character h1,
+    .getting-ready h1,
+    .new-characters h1 {
+        top: 0;
+    }
+
+}
+input::placeholder{
+    color: black;
+}
+
+h1 {
+    font-size: 56px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    color: rgb(173, 40, 151);
+    font-family: "Praise", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.creating-character h1,
+.getting-ready h1,
+.new-characters h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px rgb(173, 40, 151);;
+    color: black;
+    font-weight: bold;
+    padding: 0;
+    position: relative;
+    top:0px;
+    left:0%;
+    transform: none;
+}
+
+.creating-character input,
+select {
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    border-color: #00000000;
+    height: 23px;
+    width: 180px;
+}
+.creating-character select {
+    width: 190px;
+    height: 25px;
+}
+
+#create-btn:disabled{
+    background-color:red;
+    color: white;
+    cursor: not-allowed;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+.edit{
+    margin-right: 15px;;
+}
+
+
+.getting-ready,
+.new-characters,
+.creating-character {
+    width: 220px;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.creating-character {
+    margin: 20px;
+}
+
+.getting-ready {
+    margin: 20px;
+}
+
+.new-characters {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-right: 40px;
+}
+
+#create-btn {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 50%;
+    font-weight: bold;
+
+}
+
+h4 {
+    font-size: 24px;
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+p {
+    font-size: 19px;
+    color: darkred;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+
+.action-btn {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.new-characters ul li article {
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 15px;
+}

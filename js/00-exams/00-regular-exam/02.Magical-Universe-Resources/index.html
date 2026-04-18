@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Magical Universe</title>
+</head>
+<body>
+    <main id="main">
+        <h1>Magical Universe</h1>
+        <div class="container-wrapper">
+            <div id="left-container" class="container">
+                <form class="creating-character">
+                    <h1>Creating Character</h1>
+                    <input type="text" placeholder="Name" id="name"/>
+                    <select id="location" name="location">
+                        <option value="" disabled selected>Choose location:</option>
+                        <option value="Ashenvale">Ashenvale</option>
+                        <option value="Tarren Mill">Tarren Mill</option>
+                        <option value="Astranaar">Astranaar</option>
+                    </select>
+                    <input type="text" placeholder="Gender" id="gender" />
+                    <button type="button" id="create-btn">Create</button>
+                </form>
+            </div>
+
+            <div id="center-container" class="container">
+                <div class="getting-ready">
+                    <h1>Preparing:</h1>
+                    <ul id="preparing-list"></ul>
+                </div>
+            </div>
+
+            <div id="right-container" class="container">
+                <div class="new-characters">
+                    <h1>New Characters:</h1>
+                    <ul id="character-list"></ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
